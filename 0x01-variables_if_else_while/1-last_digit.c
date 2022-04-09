@@ -1,10 +1,21 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - prints
- * Return:0
- */
+* main - prints the last digit of a randomely generated number
+* Return:0
+*/
 int main(void)
 {
-printf("");
-return(0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+int digit = n % 10;
+if (n > 5)
+printf("Last digit of %d is %d and is greater than 5", n, digit);
+else if (n == 0)
+printf("Last digit of %d is %d and is 0", n, digit);
+else
+printf("Last digit of %d is %d and is less than 6 and not 0", n, digit);
+return (0);
 }
