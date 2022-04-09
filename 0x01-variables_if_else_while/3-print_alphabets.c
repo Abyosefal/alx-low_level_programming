@@ -20,7 +20,7 @@ for (j = 0; j < 26; j++)
 {
 putchar(b);
 b++;
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
