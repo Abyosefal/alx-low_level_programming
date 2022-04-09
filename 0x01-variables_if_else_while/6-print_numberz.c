@@ -6,9 +6,11 @@
 int main(void)
 {
 int i;
+long int j = 9876543210;
 for (i = 0; i <= 9; i++)
 {
-putchar(i%10);
+putchar(j % 10);
+j = j % 10;
 }
 putchar('\n');
 return (0);
