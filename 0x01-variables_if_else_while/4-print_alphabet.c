@@ -1,10 +1,21 @@
 #include <stdio.h>
 /**
- * main - prints
- * Return:0
- */
+* main - prints alphabets except q and e
+* Return:0
+*/
 int main(void)
 {
-printf();
-return(0);
+unsigned char a;
+int i;
+a = 'a';
+for (i = 0; i < 26; i++)
+{
+if (a == 'e' || a == 'q')
+continue;
+else
+putchar(a);
+a++;
+}
+putchar('\n');
+return (0);
 }
