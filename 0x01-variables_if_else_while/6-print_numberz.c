@@ -6,7 +6,7 @@
 int main(void)
 {
 int i;
-long int h = 1000000000;
+long int h = 100000000;
 long int j = 9876543210;
 for (i = 0; i <= 9; i++)
 {
