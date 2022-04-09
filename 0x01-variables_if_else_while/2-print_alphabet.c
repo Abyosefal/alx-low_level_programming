@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char a;
+unsigned char a;
 int i;
 a = 'a';
 for (i = 0; i < 26; i++)
