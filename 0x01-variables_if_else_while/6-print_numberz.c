@@ -6,11 +6,13 @@
 int main(void)
 {
 int i;
+long int h = 1000000000;
 long int j = 9876543210;
 for (i = 0; i <= 9; i++)
 {
-putchar(j % 10);
-j = j % 10;
+putchar(j % h);
+j = j % h;
+h = h / 10;
 }
 putchar('\n');
 return (0);
