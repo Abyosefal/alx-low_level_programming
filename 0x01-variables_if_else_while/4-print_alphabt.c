@@ -11,7 +11,7 @@ a = 'a';
 for (i = 0; i < 26; i++)
 {
 if (a == 'e' || a == 'q')
-continue;
+;
 else
 putchar(a);
 a++;
