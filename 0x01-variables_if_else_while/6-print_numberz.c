@@ -1,10 +1,15 @@
 #include <stdio.h>
 /**
- * main - prints
- * Return:0
- */
+* main - prints numbers using putchar
+* Return:0
+*/
 int main(void)
 {
-printf();
-return(0);
+char i;
+for (i = '0'; i <= '9'; i++)
+{
+int putchar(i);
+}
+putchar('\n');
+return (0);
 }
