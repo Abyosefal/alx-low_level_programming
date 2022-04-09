@@ -1,10 +1,15 @@
 #include <stdio.h>
 /**
- * main - prints
- * Return:0
- */
+* main - prints alphabets
+* Return:0
+*/
 int main(void)
 {
-printf();
-return(0);
+int i;
+for (i = 0; i < 10; i++)
+{
+printf(i);
+}
+printf("\n");
+return (0);
 }
