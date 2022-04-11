@@ -6,11 +6,15 @@
 int main(void)
 {
 int i;
-unsigned char j;
+int j;
+unsigned char a = 'a';
 for (i = 0; i < 10; i++)
 putchar(i + '0');
-for (j = 'a'; j < 'g'; j++)
-putchar (j + '0');
+for (j = 0; j < 6; j++)
+{
+putchar (a);
+a++;
+}
 putchar('\n');
 return (0);
 }
