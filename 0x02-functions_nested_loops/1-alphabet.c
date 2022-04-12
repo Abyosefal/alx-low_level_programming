@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * print_alphabet - prints the alphabet
@@ -13,5 +14,4 @@ for (i = 0; i < 26; i++)
 	a++;
 }
 _putchar('\n');
-return (0);
 }
