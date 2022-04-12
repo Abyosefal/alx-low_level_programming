@@ -10,8 +10,8 @@ unsigned char a = 'a';
 int i;
 for (i = 0; i < 26; i++)
 {
-	_putchar(a);
+	putchar(a);
 	a++;
 }
-_putchar('\n');
+putchar('\n');
 }
