@@ -21,11 +21,15 @@ int m0, m1, h0, h1;
 					_putchar(m1 + '0');
 					_putchar('\n');
 					if (h0 == 2 && h1 == 3 && m0 == 5 && m1 == 9)
-					break;
+						break;
 				}
+				if (h0 == 2 && h1 == 3 && m0 == 5 && m1 == 9)
+					break;
 			}
 			if (h0 == 2 && h1 == 3 && m0 == 5 && m1 == 9)
-			break;
+				break;
 		}
+		if (h0 == 2 && h1 == 3 && m0 == 5 && m1 == 9)
+			break;
 	}
 }
