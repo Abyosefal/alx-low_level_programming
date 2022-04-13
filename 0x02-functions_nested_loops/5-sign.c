@@ -1,9 +1,24 @@
-#include <stdio.h>
+#include "_putchar.h"
 /**
-* main - outputs
-* Return:0
+* print_sign - checks wether input is positive, zero or negative
+* @n: automatic int var to take input
+* Return: 1 or 0
 */
-int main(void)
+int print_sign(int n)
 {
-return (0);
+	if (n == 0)
+	{
+		_putchar('0');
+		return (1);
+	}
+	else if (n > 0)
+	{
+		_putchar('1');
+		return (1);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }
