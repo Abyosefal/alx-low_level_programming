@@ -6,9 +6,9 @@
 void jack_bauer(void)
 {
 int m0, m1, h0, h1;
-	for (m0 = 0; m0 < 6; m0++)
+	for (m0 = 0; m0 <= 2; m0++)
 	{
-		for (m1 = 0; m1 <= 9; m1++)
+		for (m1 = 0; m1 < 4; m1++)
 		{
 			for (h0 = 0; h0 < 6; h0++)
 			{
