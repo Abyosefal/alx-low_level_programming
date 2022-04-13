@@ -1,4 +1,5 @@
 #include "_putchar.h"
+#include <stdio.h>
 /**
 * print_last_digit - print last digit of a number
 * @n: automatic int var to take input
