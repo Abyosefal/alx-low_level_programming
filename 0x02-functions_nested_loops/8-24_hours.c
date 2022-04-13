@@ -1,9 +1,26 @@
-#include <stdio.h>
+#include "_putchar.h"
 /**
-* main - outputs
-* Return:0
+* jack_bauer - counts every minute of the day and prints it
+* Return: void
 */
-int main(void)
+void jack_bauer(void)
 {
-return (0);
+int m0, m1, h0, h1;
+	for (m0 = 0; m0 < 6; m0++)
+	{
+		for (m1 = 0; m1 <= 9; m1++)
+		{
+			for (h0 = 0; h0 < 6; h0++)
+			{
+				for (h1 = 0; h1 <= 9; h1++)
+				{
+					_putchar(m0 + '0');
+					_putchar(m1 + '0');
+					_putchar(h0 + '0');
+					_putchar(h1 + '0');
+					_putchar('\n');
+				}
+			}
+		}
+	}
 }
