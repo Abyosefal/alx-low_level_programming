@@ -15,12 +15,12 @@ int i, j, num;
 				putchar(num + '0');
 			else
 			{
-				putchar((num / 10) + '0');
-				putchar((num % 10) + '0');
+				_putchar((num / 10) + '0');
+				_putchar((num % 10) + '0');
 			}
-		putchar(',');
-		putchar(' ');
+		_putchar(',');
+		_putchar(' ');
 		}
-	putchar('\n');
+	_putchar('\n');
 	}
 }
