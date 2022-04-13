@@ -16,6 +16,7 @@ int m0, m1, h0, h1;
 				{
 					_putchar(m0 + '0');
 					_putchar(m1 + '0');
+					_putchar(':');
 					_putchar(h0 + '0');
 					_putchar(h1 + '0');
 					_putchar('\n');
