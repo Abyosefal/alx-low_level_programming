@@ -1,9 +1,12 @@
-#include <stdio.h>
+#include "_putchar.h"
 /**
-* main - outputs
-* Return:0
+* _islower - checks wether input is lower case or not
+* Return: 1 or 0
 */
-int main(void)
+int print_alphabet_x10(int c)
 {
-return (0);
+	if (c < 123 && c > 97)
+		return (1);
+	else
+		return (0);
 }
