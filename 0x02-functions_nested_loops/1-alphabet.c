@@ -1,3 +1,4 @@
+#include "_putchar.h"
 /**
 * print_alphabet - prints the alphabet
 * Return:0
