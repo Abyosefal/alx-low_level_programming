@@ -1,9 +1,12 @@
-#include <stdio.h>
 /**
-* main - outputs
-* Return:0
+* _isalpha - checks wether input is alphabet or not
+* @c: automatic int var to take char input
+* Return: 1 or 0
 */
-int main(void)
+int _isalpha(int c)
 {
-return (0);
+	if (c < 123 && c > 97 || c < 91 && c > 64)
+		return (1);
+	else
+		return (0);
 }
