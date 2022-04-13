@@ -5,7 +5,7 @@
 * @n: automatic int var to take input
 * Return: ;ast digit of the number
 */
-int print_last_digit(unsigned long int n)
+int print_last_digit(signed long int n)
 {
 int last;
 	if (n < 0)
