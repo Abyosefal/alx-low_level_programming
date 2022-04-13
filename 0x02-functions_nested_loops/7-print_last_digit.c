@@ -13,6 +13,6 @@ int last;
 		n = -1 * n;
 	 last = n % 10;
 	_putchar(last + '0');
-	printf(INT_MIN);
+	printf(int INT_MIN);
 	return (last);
 }
