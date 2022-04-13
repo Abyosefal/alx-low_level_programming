@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include "_putchar.h"
 /**
-* main - outputs
-* Return:0
+* print_last_digit - print last digit of a number
+* @n: automatic int var to take input
+* Return: ;ast digit of the number
 */
-int main(void)
+int print_last_digit(int n)
 {
-return (0);
+	_putchar(n%10 + '0');
 }
