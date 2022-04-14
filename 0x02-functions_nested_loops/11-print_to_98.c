@@ -1,4 +1,3 @@
-#include "_putchar.c"
 /**
 * print_to_98 - prints all naturel numbers from input to 98
 * @a: input int
