@@ -6,33 +6,34 @@
 */
 void print_to_98(int a)
 {
-	int i;
+	int i,j;
 
 	if ((a <= 98 && a >= 0) || a < 0)
 	{
 		for (i = a; i < 99; i++)
 		{
-			if (i < 0)
+			j = i;
+			if (j < 0)
 			{
 				_putchar('-');
-				i = -1 * i;
+				j = -1 * j;
 			}
-			if (i >=0 && i < 10)
+			if (j >=0 && j < 10)
 			{
-				_putchar(i + '0');
+				_putchar(j + '0');
 			}
-			else if (i >= 10 && i < 100)
+			else if (j >= 10 && j < 100)
 			{
-				_putchar(i / 10 + '0');
-				_putchar(i % 10 + '0');
+				_putchar(j / 10 + '0');
+				_putchar(j % 10 + '0');
 			}
-			else if (i >= 100 && i < 1000)
+			else if (j >= 100 && j < 1000)
 			{
-				_putchar(i / 100 + '0');
-				_putchar((i % 100) / 10 + '0');
-				_putchar(i % 10 + '0');
+				_putchar(j / 100 + '0');
+				_putchar((j % 100) / 10 + '0');
+				_putchar(j % 10 + '0');
 			}
-			if (i != 98)
+			if (j != 98)
 			{
 				_putchar(',');
 				_putchar(' ');
