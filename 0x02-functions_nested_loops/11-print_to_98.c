@@ -6,7 +6,7 @@
 */
 void print_to_98(int a)
 {
-	int i,j;
+	int i, j;
 
 	if ((a <= 98 && a >= 0) || a < 0)
 	{
@@ -18,7 +18,7 @@ void print_to_98(int a)
 				_putchar('-');
 				j = -1 * j;
 			}
-			if (j >=0 && j < 10)
+			if (j >= 0 && j < 10)
 			{
 				_putchar(j + '0');
 			}
@@ -33,7 +33,7 @@ void print_to_98(int a)
 				_putchar((j % 100) / 10 + '0');
 				_putchar(j % 10 + '0');
 			}
-			if (j != 98)
+			if (i != 98)
 			{
 				_putchar(',');
 				_putchar(' ');
