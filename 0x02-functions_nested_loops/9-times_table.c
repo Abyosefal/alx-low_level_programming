@@ -12,14 +12,20 @@ int i, j, num;
 		{
 			num = i * j;
 			if (num < 10)
+				if (num != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 				_putchar(num + '0');
 			else
 			{
 				_putchar((num / 10) + '0');
 				_putchar((num % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
-		_putchar(',');
-		_putchar(' ');
 		}
 	_putchar('\n');
 	}

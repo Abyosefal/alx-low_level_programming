@@ -1,9 +1,10 @@
-#include <stdio.h>
 /**
-* main - outputs
-* Return:0
+* add - simply adds two integers
+* @a: first input int
+* @b: second input int
+* Return: int
 */
-int main(void)
+void add(int a, int b)
 {
-return (0);
+	return (a + b);
 }
