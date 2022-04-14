@@ -8,28 +8,27 @@ void print_to_98(int a)
 {
 	int i;
 
-	if ((a <= 98 && a >= 0) || a < 0)
+	if (a <= 98 && a >= 0)
 	{
 		for (i = a; i < 99; i++)
 		{
 			if (i < 10)
 			{
 			_putchar(i + '0');
-			_putchar(',');
-			_putchar(' ');
 			}
 			else if (i >= 10 && i < 100)
 			{
 				_putchar(i / 10 + '0');
 				_putchar(i % 10 + '0');
-				_putchar(',');
-				_putchar(' ');
 			}
 			else if (i >= 100 && i < 1000)
 			{
 				_putchar(i / 100 + '0');
 				_putchar((i % 100) / 10 + '0');
 				_putchar(i % 10 + '0');
+			}
+			if (i != 98)
+			{
 				_putchar(',');
 				_putchar(' ');
 			}
@@ -37,7 +36,7 @@ void print_to_98(int a)
 	}
 	else if (a > 98)
 	{
-		for (i = a; i < 99; i--)
+		for (i = a; i > 97; i--)
 		{
 			_putchar(i + '0');
 			_putchar(',');
