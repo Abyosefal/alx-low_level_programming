@@ -4,7 +4,7 @@
 * @b: second input int
 * Return: int
 */
-void add(int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }
