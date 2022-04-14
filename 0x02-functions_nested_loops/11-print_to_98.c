@@ -1,9 +1,18 @@
-#include <stdio.h>
+#include "_putchar.c"
 /**
-* main - outputs
-* Return:0
+* print_to_98 - prints all naturel numbers from input to 98
+* @a: input int
+* Return: void
 */
-int main(void)
+void print_to_98(int a)
 {
-return (0);
+	int i;
+
+	for (i = a; i < 99; i++)
+	{
+		_putchar(i + '0');
+		_putchar(',');
+		_putchar(' ');
+	}
+	_putchar('\n');
 }
