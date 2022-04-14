@@ -12,7 +12,12 @@ void print_to_98(int a)
 	{
 		for (i = a; i < 99; i++)
 		{
-			if (i < 10)
+			if (i < 0)
+			{
+				_putchar('-');
+				i = -1 * i;
+			}
+			if (i >=0 && i < 10)
 			{
 				_putchar(i + '0');
 			}
