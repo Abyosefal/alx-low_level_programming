@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * more_numbers - print numbers multiple times
  * Return: 0
@@ -15,5 +15,4 @@ void more_numbers(void);
 		_putchar('\n');
 	}
 	_putchar('\n');
-	return (0);
 }
