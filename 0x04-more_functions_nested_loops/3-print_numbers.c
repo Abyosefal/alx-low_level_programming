@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * print_numbers - just pront 0 to 9
  * Return: 0
