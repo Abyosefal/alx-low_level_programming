@@ -10,9 +10,9 @@ void print_rev(char *s)
 	char arr[];
 
 	i = 0;
-	while (str[i] != '\0')
+	while (s[i] != '\0')
 	{
-		arr[i] = str[i];
+		arr[i] = s[i];
 		i++;
 	}
 	for (j = i; j >= 0; j--)
