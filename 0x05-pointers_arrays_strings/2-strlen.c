@@ -5,17 +5,11 @@
 */
 int _strlen(char *s)
 {
-	int len, i;
-	char arr[];
+	int i;
 
-	arr = *s;
-	len = 0;
-	for (i = 0; ; i++)
+	while (s[i] != '\0')
 	{
-		if (arr[i] != 0)
-			len++;
-		else
-			break;
+		i++;
 	}
-	return (len);
+	return (i);
 }
