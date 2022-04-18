@@ -8,7 +8,7 @@ int _strlen(char *s)
 	int len, i;
 	char arr[];
 
-	arr[] = *s;
+	arr = *s;
 	len = 0;
 	for (i = 0; ; i++)
 	{
