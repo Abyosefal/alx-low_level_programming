@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * _puts - writes a string to stdout followed by a new line
 * @str: string passed to the function to be printed
