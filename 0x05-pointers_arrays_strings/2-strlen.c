@@ -1,10 +1,21 @@
-#include <stdio.h>
 /**
-* main - 
-* Return: 0
+* _strlen - returns length of an input string
+* @s: pointer to input string
+* Return: length of the string as int
 */
-int main(void)
+int _strlen(char *s)
 {
+	int len, i;
+	char arr[];
 
-	return (0);
+	arr[] = *s;
+	len = 0;
+	for (i = 0; ; i++)
+	{
+		if (arr[i] != 0)
+			len++;
+		else
+			break;
+	}
+	return (len);
 }
