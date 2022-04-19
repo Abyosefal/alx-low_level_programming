@@ -10,8 +10,7 @@ void _strcpy(char *dest, char *src)
 	int i;
 
 	i = 0;
-	printf(dest);
-	printf(src);
+	printf("%p",*src);
 	while (src[i] != '\0')
 	{
 		dest[i] = src[i];
