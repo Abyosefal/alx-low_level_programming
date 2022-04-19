@@ -4,7 +4,7 @@
 * @src: str original pointer
 * Return: char
 */
-void *_strcpy(char *dest, char *src)
+void _strcpy(char *dest, char *src)
 {
-	dest = src;
+	*dest = *src;
 }
