@@ -1,0 +1,16 @@
+/**
+ * _pow_recursion - returns x raised to power of y
+ * @x: base number
+ * @y: exponent
+ * Return: int
+ */
+
+int _pow_recursion(int x, int y)
+{
+	if (y == 0)
+		return (1);
+	else if (y > 0)
+		return (x * _pow_recursion(y - 1));
+	else
+		return (-1);
+}
