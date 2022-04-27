@@ -4,7 +4,7 @@
  * Return: int
  */
 
-int factorial(int n)
+float factorial(int n)
 {
 	if (n == 0)
 		return (1);
