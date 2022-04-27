@@ -6,7 +6,7 @@
 
 void _print_rev_recursion(char *s)
 {
-	int i, j, len;
+	int i, j;
 
 	i = 0;
 	while (*s != '\0')
