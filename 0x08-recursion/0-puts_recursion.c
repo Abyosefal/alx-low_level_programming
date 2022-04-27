@@ -10,7 +10,6 @@ void _puts_recursion(char *s)
 	{
 		_puts(*s);
 		_puts_recursion(s + 1);
-		i++;
 	}
 	_puts('\n');
 }
